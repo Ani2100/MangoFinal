@@ -20,7 +20,10 @@ function setup() {
 	ground  = new Ground(650, 680, 1300, 20);
 	tree = new Tree(700,200,500,500);
 	mango1 = new Mango(800,300,50,50);
-	stone = new Stone(200,450,30,30);
+	mango2 = new Mango(770,310,50,50);
+	mango3 = new Mango(740,320,50,50);
+	mango4 = new Mango(710,330,50,50);
+	stone = new Stone(800,450,30,30);
 	slingshot = new Connection(stone.body,{x:200,y:300} );
 
     
@@ -37,6 +40,9 @@ function draw() {
   ground.display();
   tree.display();
   mango1.display();
+  mango2.display();
+  mango3.display();
+ mango4.display();
   stone.display();
   slingshot.display();
  
